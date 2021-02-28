@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#4a47f8">
+  <meta name="msapplication-TileColor" content="#4a47f8">
+  <meta name="theme-color" content="#4a47f8">
+
+  <title>Gogol Chemical Lab</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="bodyyy">
+  <!--
+  <div class="in__progress">
+      <p class="in__progress__content">building in progress }\/(`|`)\/{</p>
+    </div>
+  -->
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+        <div class="header__body">
+          <div id="logo" class="header__logo" data-slide="1">
+            <svg width="60" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="logo-night" d="M10.9531 9.45312C12.9219 9.45312 14.6406 9.9375 16.1094 10.9062C16.9062 11.4531 17.7188 12.25 18.5469 13.2969V10.1328H22.4375V32.9609C22.4375 36.1484 21.9688 38.6641 21.0312 40.5078C19.2812 43.9141 15.9766 45.6172 11.1172 45.6172C8.41406 45.6172 6.14062 45.0078 4.29688 43.7891C2.45312 42.5859 1.42188 40.6953 1.20312 38.1172H5.49219C5.69531 39.2422 6.10156 40.1094 6.71094 40.7188C7.66406 41.6562 9.16406 42.125 11.2109 42.125C14.4453 42.125 16.5625 40.9844 17.5625 38.7031C18.1562 37.3594 18.4297 34.9609 18.3828 31.5078C17.5391 32.7891 16.5234 33.7422 15.3359 34.3672C14.1484 34.9922 12.5781 35.3047 10.625 35.3047C7.90625 35.3047 5.52344 34.3438 3.47656 32.4219C1.44531 30.4844 0.429688 27.2891 0.429688 22.8359C0.429688 18.6328 1.45312 15.3516 3.5 12.9922C5.5625 10.6328 8.04688 9.45312 10.9531 9.45312ZM18.5469 22.3438C18.5469 19.2344 17.9062 16.9297 16.625 15.4297C15.3438 13.9297 13.7109 13.1797 11.7266 13.1797C8.75781 13.1797 6.72656 14.5703 5.63281 17.3516C5.05469 18.8359 4.76562 20.7812 4.76562 23.1875C4.76562 26.0156 5.33594 28.1719 6.47656 29.6562C7.63281 31.125 9.17969 31.8594 11.1172 31.8594C14.1484 31.8594 16.2812 30.4922 17.5156 27.7578C18.2031 26.2109 18.5469 24.4062 18.5469 22.3438ZM38.4922 9.17188C41.3203 9.17188 43.6172 9.85938 45.3828 11.2344C47.1641 12.6094 48.2344 14.9766 48.5938 18.3359H44.4922C44.2422 16.7891 43.6719 15.5078 42.7812 14.4922C41.8906 13.4609 40.4609 12.9453 38.4922 12.9453C35.8047 12.9453 33.8828 14.2578 32.7266 16.8828C31.9766 18.5859 31.6016 20.6875 31.6016 23.1875C31.6016 25.7031 32.1328 27.8203 33.1953 29.5391C34.2578 31.2578 35.9297 32.1172 38.2109 32.1172C39.9609 32.1172 41.3438 31.5859 42.3594 30.5234C43.3906 29.4453 44.1016 27.9766 44.4922 26.1172H48.5938C48.125 29.4453 46.9531 31.8828 45.0781 33.4297C43.2031 34.9609 40.8047 35.7266 37.8828 35.7266C34.6016 35.7266 31.9844 34.5312 30.0312 32.1406C28.0781 29.7344 27.1016 26.7344 27.1016 23.1406C27.1016 18.7344 28.1719 15.3047 30.3125 12.8516C32.4531 10.3984 35.1797 9.17188 38.4922 9.17188ZM52.9297 0.570312H57.1484V35H52.9297V0.570312ZM60.1016 13.4375H64.4844V18.3125H60.1016V13.4375Z" fill="black"/>
+            </svg>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li>
+                <a href="#products" class="header__link products__btn">products</a>
+              </li>
+              <li>
+                <a href="#services" class="header__link">services</a>
+              </li>
+              <li>
+                <a href="#contacts" class="header__link">contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <nav class="burger__menu">
+            <ul class="burger__list">
+              <li>
+                <a href="#enterance" class="burger__link about__btn" data-slide="2">about</a>
+                <div class="sublink__list">
+                  <a class="burger__sublink who-we-are__btn" href="#enterance" data-slide="2">who we are</a>
+                  <a class="burger__sublink news__btn" href="#enterance" data-slide="3">news</a>
+                </div>
+              </li>
+              <li>
+                <a href="#products" class="burger__link ">products</a>
+                <div class="sublink__list">
+                  <a class="burger__sublink levoglucosenone__btn " href="#products" data-slide="1">levoglucosenone</a>
+                  <a class="burger__sublink levoglusan__btn" href="#products" data-slide="2">levoglucosan</a>
+                  <a class="burger__sublink melanine__btn" href="#products" data-slide="3">melanin</a>
+                </div>
+              </li>
+              <li>
+                <a href="#services" class="burger__link ">services</a>
+                <div class="sublink__list">
+                <!--  
+                  <a class="burger__sublink" href="#services" >analysis nmr</a>
+                  <a class="burger__sublink" href="#services" >decrepitation</a>
+                  <a class="burger__sublink" href="#services" >distillation</a>
+                -->
+                </div>
+              </li>
+              <li>
+                <a href="#partners" class="burger__link partners__btn">partners</a>
+              </li>
+              <li>
+                <a href="#why-us" class="burger__link">why us?</a>
+                <div class="sublink__list">
+                    <a class="burger__sublink certification__btn" href="#why-us" data-slide="1">certification</a>
+                  <!--<a class="burger__sublink reviews__btn" href="#why-us" data-slide="2">reviews</a> -->
+                  <a class="burger__sublink team__btn" href="#why-us" data-slide="2">team</a>
+                </div>
+              </li>
+
+              <li>
+                <a href="#contacts" class="burger__link ">contacts</a>
+              </li>
+              <li>
+                <div class="social__bar">
+                  <a href="#" class="social__link">
+                    <svg width="30" height="41" viewBox="0 0 30 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="social__link__svg" d="M25 30.3448H15C12.2425 30.3448 10 28.1449 10 25.4397C10 24.0852 11.0981 22.9871 12.4526 22.9871H25C27.76 22.9871 30 20.7896 30 18.082C30 15.3744 27.76 13.1769 25 13.1769H17.3577C13.2942 13.1769 10 9.88273 10 5.81919C10 3.11156 7.76 0.914062 5 0.914062C2.24 0.914062 0 3.11156 0 5.81919V25.4397C0 33.5552 6.7275 40.1551 15 40.1551H25C27.76 40.1551 30 37.9576 30 35.25C30 32.5423 27.76 30.3448 25 30.3448Z" fill="black"/>
+                    </svg>
+                  </a>
+                  <a href="#" class="social__link">
+                    <svg width="24" height="42" viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="social__link__svg" d="M23.056 20.4446C23.9791 18.2529 22.3698 15.829 19.9917 15.829C18.1553 15.829 16.6667 14.3403 16.6667 12.5039V9.49737C16.6667 7.74985 18.16 7.91448 20 7.91448C21.8409 7.91448 23.3333 6.42209 23.3333 4.58114V3.95724C23.3333 1.77172 21.5616 0 19.3761 0H16.6667C11.1433 0 6.66667 4.25166 6.66667 9.49737V12.4956C6.66667 14.3366 5.17428 15.829 3.33333 15.829C1.49238 15.829 0 17.3213 0 19.1623V20.4101C0 22.251 1.49238 23.7434 3.33333 23.7434C5.17428 23.7434 6.66667 25.2358 6.66667 27.0768V36.1553C6.66667 38.9167 8.90524 41.1553 11.6667 41.1553C14.4281 41.1553 16.6667 38.9167 16.6667 36.1553V26.7484C16.6667 25.0888 18.012 23.7434 19.6716 23.7434C20.8806 23.7434 21.9718 23.019 22.441 21.9048L23.056 20.4446Z" fill="black"/>
+                    </svg>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+<!-- slider titles  -->
+<div class="titles__slider title">
+  <h3 class="empty__title slider__title "></h3>
+  <h3 class="about__title slider__title ">ABOUT</h3>
+  <h3 class="news__title slider__title ">NEWS</h3>
+</div>
+
+
+  <section id="enterance" class="enterance">
+    <div class="container">
+
+      <div class="icon animate__animated animate__fadeIn animate__delay-5s">
+          <div class="icon-wrapper">
+            <div class="mouse-icon">
+              <div class="mouse"></div>
+              <span class="arrow arrow-01"></span>
+              <span class="arrow arrow-02"></span>
+              <span class="arrow arrow-03"></span>
+            </div>
+          </div>
+        </div>
+
+      <div class="enterance__slider">
+        <div class="enterance__slider_item logo-destination" data-title="1">
+            <div class="introduction">
+
+              <div class="intro__bg transform__bg">
+                <img src="img/helloimage2.png" alt="figure">
+              </div>
+
+              <div class="introduction__content">
+
+                <svg  width="980" height="76" viewBox="0 0 980 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="intro__chemicallab" id="GOGOLCHEMICAL LAB" d="M34.7 42.6H62.4V46.3C62.4 50.2333 61.6667 53.9 60.2 57.3C58.7333 60.6333 56.7 63.5333 54.1 66C51.5667 68.4 48.5667 70.3 45.1 71.7C41.6333 73.0333 37.9333 73.7 34 73.7C28.7333 73.7 24.1 72.7667 20.1 70.9C16.1667 69.0333 12.8667 66.5 10.2 63.3C7.53333 60.1 5.53333 56.3667 4.2 52.1C2.86667 47.7667 2.2 43.1667 2.2 38.3C2.2 33.4333 2.9 28.8667 4.3 24.6C5.7 20.2667 7.73333 16.5 10.4 13.3C13.1333 10.1 16.4333 7.56666 20.3 5.7C24.2333 3.83333 28.7 2.9 33.7 2.9C37.4333 2.9 40.8333 3.43333 43.9 4.49999C47.0333 5.5 49.7667 6.96667 52.1 8.9C54.5 10.8333 56.4667 13.1667 58 15.9C59.6 18.5667 60.7 21.5667 61.3 24.9H63.3C62.7 21.2333 61.5667 17.9333 59.9 15C58.3 12.0667 56.2 9.56667 53.6 7.5C51.0667 5.36666 48.1 3.73333 44.7 2.6C41.3667 1.46666 37.7 0.899999 33.7 0.899999C28.4333 0.899999 23.7333 1.86667 19.6 3.8C15.4667 5.73333 11.9667 8.4 9.1 11.8C6.23333 15.1333 4.03333 19.1 2.5 23.7C0.966667 28.2333 0.2 33.1 0.2 38.3C0.2 43.4333 0.9 48.2667 2.3 52.8C3.76667 57.3333 5.9 61.3 8.7 64.7C11.5 68.0333 15 70.7 19.2 72.7C23.4 74.6333 28.2333 75.6 33.7 75.6C40.7667 75.6 46.8 73.9 51.8 70.5C56.8 67.1 60.2667 62.3667 62.2 56.3H62.4V74H64.4V40.6H34.7V42.6ZM65.368 38.3C65.368 33.2333 66.068 28.4333 67.468 23.9C68.9346 19.3667 71.0346 15.4 73.768 12C76.568 8.6 80.0013 5.9 84.068 3.9C88.2013 1.9 92.9346 0.899999 98.268 0.899999C103.601 0.899999 108.301 1.9 112.368 3.9C116.501 5.9 119.935 8.6 122.668 12C125.468 15.4 127.568 19.3667 128.968 23.9C130.435 28.4333 131.168 33.2333 131.168 38.3C131.168 43.3667 130.435 48.1667 128.968 52.7C127.568 57.2333 125.468 61.2 122.668 64.6C119.935 68 116.501 70.7 112.368 72.7C108.301 74.6333 103.601 75.6 98.268 75.6C92.9346 75.6 88.2013 74.6333 84.068 72.7C80.0013 70.7 76.568 68 73.768 64.6C71.0346 61.2 68.9346 57.2333 67.468 52.7C66.068 48.1667 65.368 43.3667 65.368 38.3ZM67.368 38.3C67.4346 43.4333 68.168 48.1667 69.568 52.5C71.0346 56.8333 73.068 60.5667 75.668 63.7C78.3346 66.8333 81.568 69.3 85.368 71.1C89.168 72.8333 93.468 73.7 98.268 73.7C103.068 73.7 107.368 72.8333 111.168 71.1C114.968 69.3 118.168 66.8333 120.768 63.7C123.435 60.5667 125.468 56.8333 126.868 52.5C128.335 48.1667 129.101 43.4333 129.168 38.3C129.101 33.1667 128.335 28.4333 126.868 24.1C125.468 19.7667 123.435 16.0333 120.768 12.9C118.168 9.76666 114.968 7.33333 111.168 5.6C107.368 3.8 103.068 2.9 98.268 2.9C93.468 2.9 89.168 3.8 85.368 5.6C81.568 7.33333 78.3346 9.76666 75.668 12.9C73.068 16.0333 71.0346 19.7667 69.568 24.1C68.168 28.4333 67.4346 33.1667 67.368 38.3ZM164.938 42.6H192.638V46.3C192.638 50.2333 191.905 53.9 190.438 57.3C188.972 60.6333 186.938 63.5333 184.338 66C181.805 68.4 178.805 70.3 175.338 71.7C171.872 73.0333 168.172 73.7 164.238 73.7C158.972 73.7 154.338 72.7667 150.338 70.9C146.405 69.0333 143.105 66.5 140.438 63.3C137.772 60.1 135.772 56.3667 134.438 52.1C133.105 47.7667 132.438 43.1667 132.438 38.3C132.438 33.4333 133.138 28.8667 134.538 24.6C135.938 20.2667 137.972 16.5 140.638 13.3C143.372 10.1 146.672 7.56666 150.538 5.7C154.472 3.83333 158.938 2.9 163.938 2.9C167.672 2.9 171.072 3.43333 174.138 4.49999C177.272 5.5 180.005 6.96667 182.338 8.9C184.738 10.8333 186.705 13.1667 188.238 15.9C189.838 18.5667 190.938 21.5667 191.538 24.9H193.538C192.938 21.2333 191.805 17.9333 190.138 15C188.538 12.0667 186.438 9.56667 183.838 7.5C181.305 5.36666 178.338 3.73333 174.938 2.6C171.605 1.46666 167.938 0.899999 163.938 0.899999C158.672 0.899999 153.972 1.86667 149.838 3.8C145.705 5.73333 142.205 8.4 139.338 11.8C136.472 15.1333 134.272 19.1 132.738 23.7C131.205 28.2333 130.438 33.1 130.438 38.3C130.438 43.4333 131.138 48.2667 132.538 52.8C134.005 57.3333 136.138 61.3 138.938 64.7C141.738 68.0333 145.238 70.7 149.438 72.7C153.638 74.6333 158.472 75.6 163.938 75.6C171.005 75.6 177.038 73.9 182.038 70.5C187.038 67.1 190.505 62.3667 192.438 56.3H192.638V74H194.638V40.6H164.938V42.6ZM195.606 38.3C195.606 33.2333 196.306 28.4333 197.706 23.9C199.173 19.3667 201.273 15.4 204.006 12C206.806 8.6 210.24 5.9 214.306 3.9C218.44 1.9 223.173 0.899999 228.506 0.899999C233.84 0.899999 238.54 1.9 242.606 3.9C246.74 5.9 250.173 8.6 252.906 12C255.706 15.4 257.806 19.3667 259.206 23.9C260.673 28.4333 261.406 33.2333 261.406 38.3C261.406 43.3667 260.673 48.1667 259.206 52.7C257.806 57.2333 255.706 61.2 252.906 64.6C250.173 68 246.74 70.7 242.606 72.7C238.54 74.6333 233.84 75.6 228.506 75.6C223.173 75.6 218.44 74.6333 214.306 72.7C210.24 70.7 206.806 68 204.006 64.6C201.273 61.2 199.173 57.2333 197.706 52.7C196.306 48.1667 195.606 43.3667 195.606 38.3ZM197.606 38.3C197.673 43.4333 198.406 48.1667 199.806 52.5C201.273 56.8333 203.306 60.5667 205.906 63.7C208.573 66.8333 211.806 69.3 215.606 71.1C219.406 72.8333 223.706 73.7 228.506 73.7C233.306 73.7 237.606 72.8333 241.406 71.1C245.206 69.3 248.406 66.8333 251.006 63.7C253.673 60.5667 255.706 56.8333 257.106 52.5C258.573 48.1667 259.34 43.4333 259.406 38.3C259.34 33.1667 258.573 28.4333 257.106 24.1C255.706 19.7667 253.673 16.0333 251.006 12.9C248.406 9.76666 245.206 7.33333 241.406 5.6C237.606 3.8 233.306 2.9 228.506 2.9C223.706 2.9 219.406 3.8 215.606 5.6C211.806 7.33333 208.573 9.76666 205.906 12.9C203.306 16.0333 201.273 19.7667 199.806 24.1C198.406 28.4333 197.673 33.1667 197.606 38.3ZM306.577 72H264.877V2.6H262.877V74H306.577V72ZM353.121 26.6H368.321C367.854 22.4667 366.721 18.8 364.921 15.6C363.121 12.4 360.821 9.73333 358.021 7.6C355.288 5.4 352.154 3.73333 348.621 2.6C345.154 1.46666 341.454 0.899999 337.521 0.899999C332.054 0.899999 327.121 1.86667 322.721 3.8C318.388 5.73333 314.721 8.4 311.721 11.8C308.721 15.2 306.421 19.2 304.821 23.8C303.221 28.3333 302.421 33.2667 302.421 38.6C302.421 43.8 303.221 48.6667 304.821 53.2C306.421 57.6667 308.721 61.5667 311.721 64.9C314.721 68.2333 318.388 70.8667 322.721 72.8C327.121 74.6667 332.054 75.6 337.521 75.6C341.921 75.6 345.954 74.9333 349.621 73.6C353.288 72.2667 356.488 70.3333 359.221 67.8C361.954 65.2667 364.154 62.2 365.821 58.6C367.488 55 368.521 50.9667 368.921 46.5H353.721C353.121 51.3 351.454 55.1667 348.721 58.1C346.054 61.0333 342.321 62.5 337.521 62.5C333.988 62.5 330.988 61.8333 328.521 60.5C326.054 59.1 324.054 57.2667 322.521 55C320.988 52.7333 319.854 50.2 319.121 47.4C318.454 44.5333 318.121 41.6 318.121 38.6C318.121 35.4667 318.454 32.4333 319.121 29.5C319.854 26.5667 320.988 23.9667 322.521 21.7C324.054 19.3667 326.054 17.5333 328.521 16.2C330.988 14.8 333.988 14.1 337.521 14.1C339.454 14.1 341.288 14.4333 343.021 15.1C344.821 15.7 346.421 16.5667 347.821 17.7C349.221 18.8333 350.388 20.1667 351.321 21.7C352.254 23.1667 352.854 24.8 353.121 26.6ZM372.642 2.6V74H388.342V43.2H417.242V74H432.942V2.6H417.242V30H388.342V2.6H372.642ZM439.763 2.6V74H493.963V60.8H455.463V43.3H490.063V31.1H455.463V15.8H493.163V2.6H439.763ZM497.607 2.6V74H512.307V23.9H512.507L530.007 74H542.107L559.607 23.4H559.807V74H574.507V2.6H552.407L536.607 51.7H536.407L519.707 2.6H497.607ZM581.33 2.6V74H597.03V2.6H581.33ZM651.422 26.6H666.622C666.155 22.4667 665.022 18.8 663.222 15.6C661.422 12.4 659.122 9.73333 656.322 7.6C653.589 5.4 650.455 3.73333 646.922 2.6C643.455 1.46666 639.755 0.899999 635.822 0.899999C630.355 0.899999 625.422 1.86667 621.022 3.8C616.689 5.73333 613.022 8.4 610.022 11.8C607.022 15.2 604.722 19.2 603.122 23.8C601.522 28.3333 600.722 33.2667 600.722 38.6C600.722 43.8 601.522 48.6667 603.122 53.2C604.722 57.6667 607.022 61.5667 610.022 64.9C613.022 68.2333 616.689 70.8667 621.022 72.8C625.422 74.6667 630.355 75.6 635.822 75.6C640.222 75.6 644.255 74.9333 647.922 73.6C651.589 72.2667 654.789 70.3333 657.522 67.8C660.255 65.2667 662.455 62.2 664.122 58.6C665.789 55 666.822 50.9667 667.222 46.5H652.022C651.422 51.3 649.755 55.1667 647.022 58.1C644.355 61.0333 640.622 62.5 635.822 62.5C632.289 62.5 629.289 61.8333 626.822 60.5C624.355 59.1 622.355 57.2667 620.822 55C619.289 52.7333 618.155 50.2 617.422 47.4C616.755 44.5333 616.422 41.6 616.422 38.6C616.422 35.4667 616.755 32.4333 617.422 29.5C618.155 26.5667 619.289 23.9667 620.822 21.7C622.355 19.3667 624.355 17.5333 626.822 16.2C629.289 14.8 632.289 14.1 635.822 14.1C637.755 14.1 639.589 14.4333 641.322 15.1C643.122 15.7 644.722 16.5667 646.122 17.7C647.522 18.8333 648.689 20.1667 649.622 21.7C650.555 23.1667 651.155 24.8 651.422 26.6ZM688.943 46.4L698.243 20.2H698.443L707.443 46.4H688.943ZM690.443 2.6L663.443 74H679.243L684.843 58.1H711.543L716.943 74H733.243L706.543 2.6H690.443ZM732.4 2.6V74H782.9V60.8H748.1V2.6H732.4ZM805.509 2.6V74H856.009V60.8H821.209V2.6H805.509ZM875.787 46.4L885.087 20.2H885.287L894.287 46.4H875.787ZM877.287 2.6L850.287 74H866.087L871.687 58.1H898.387L903.787 74H920.087L893.387 2.6H877.287ZM934.944 31.5V14.8H949.644C951.044 14.8 952.377 14.9333 953.644 15.2C954.977 15.4 956.144 15.8 957.144 16.4C958.144 17 958.944 17.8333 959.544 18.9C960.144 19.9667 960.444 21.3333 960.444 23C960.444 26 959.544 28.1667 957.744 29.5C955.944 30.8333 953.644 31.5 950.844 31.5H934.944ZM919.244 2.6V74H953.844C957.044 74 960.144 73.6 963.144 72.8C966.21 72 968.91 70.7667 971.244 69.1C973.644 67.4333 975.544 65.3 976.944 62.7C978.344 60.0333 979.044 56.9 979.044 53.3C979.044 48.8333 977.944 45.0333 975.744 41.9C973.61 38.7 970.344 36.4667 965.944 35.2C969.144 33.6667 971.544 31.7 973.144 29.3C974.81 26.9 975.644 23.9 975.644 20.3C975.644 16.9667 975.077 14.1667 973.944 11.9C972.877 9.63333 971.344 7.83333 969.344 6.5C967.344 5.1 964.944 4.1 962.144 3.5C959.344 2.9 956.244 2.6 952.844 2.6H919.244ZM934.944 61.8V42.2H952.044C955.444 42.2 958.177 43 960.244 44.6C962.31 46.1333 963.344 48.7333 963.344 52.4C963.344 54.2667 963.01 55.8 962.344 57C961.744 58.2 960.91 59.1667 959.844 59.9C958.777 60.5667 957.544 61.0667 956.144 61.4C954.744 61.6667 953.277 61.8 951.744 61.8H934.944Z" fill="black"/>
+                </svg>
+
+
+                <div class="intro__descr animate__animated animate__fadeIn animate__delay-2s">
+                  The future <br> depends on what <br> we do today
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="enterance__slider_item " data-title="2">
+            <div class="about main__info__item">
+              <div class="about__content">
+                  <p>ukrainian</br> biochemical</br> laboratory</p>
+                  <p>offers one of the purest levoglucosenone at the market because of our innovative purification technology, which let us deliver an excellent product at competitive prices.</p>
+              </div>
+              <img src="img/photo-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="enterance__slider_item  " data-title="3">
+            <div class="news">
+              <div class="news__content">
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="products__title title">PRODUCTS</h2>
+  <section class="products" id="products">
+    <div class="container">
+    <!--  <div class="product__plug">
+          <div class="product__plug__info">
+            <p>
+              offers one of the purest levoglucosenone
+              at the market because of our innovative
+              purification technology, which let us deliver
+               an excellent product at competitive prices.
+             </p>
+          </div>
+          <div class="product__plug__purity">
+              <p><span>99,8%</span></br>
+              purity
+             </p>
+          </div>
+      </div>
+    -->
+      <div class="products__dots">
+            <div class="products__dot title__dot">
+              <h3>LEVOGLUCOSENONE</h3>
+            </div>
+            <div class="products__dot title__dot">
+              <h3>LEVOGLUCOSAN</h3>
+            </div>
+            <div class="products__dot title__dot">
+              <h3 class="melanin__dot">MELANIN</h3>
+            </div>
+            <div class="products__dot title__dot">
+              <h3>MORE</h3>
+            </div>
+      </div>
+
+      <div class="products__slider">
+
+        <div class="products__slider_item">
+          <div class="product__head">
+            <h5>Levoglucosenone</br>
+              <span>((1S,5R)-6,8-dioxabicyclo[3.2.1]oct-2-en-4-one)</span>
+            </h5>
+            <a href="#">PDF</a>
+          </div>
+            <div class="product">
+              <div class="product__left">
+                <img src="img/levoglucosenone-bottle.png" alt="">
+              </div>
+              <div class="product__info">
+                  <p><span>C6H6O3</span></br>Molar mass – 126.111gmol-1</br> Density (20°C) – 1.304gcm3</br> Boiling point – 231°C</br> Vapor pressure (25°C) – 6.2Pa</br> Refractive index (20°C) – 1.5065</p>
+                  <p> Purity ≥ 98%</p>
+                  <p>Levoglucosenone is a highly functionalized and chiral platform. It is an intermediate for pharmaceuticals, attractants for agriculture, solvents and polymers as well as a chiral synthon used in organic synthesis.</p>
+              </div>
+              <div class="product__apps">
+                  <p>Medicine</p>
+                  <p>Pharmaceuticals</p>
+                  <p>Synthesis (chiral synthon) </p>
+                  <p>Attractants for agriculture</p>
+                  <p>Polymer industry</p>
+                  <p>Solvent industry</p>
+                  <div class="more__product__info__btn" data-fancybox data-src="#modal-1" href="javascript:;">read more</div>
+              </div>
+            </div>
+        </div>
+
+        <div class="products__slider_item">
+          <div class="product__head">
+            <h5>Levoglucosan</br>
+              <span>(1R,2S,3S,4R,5R)-6,8-Dioxabicyclo[3.2.1]octane-2,3,4-triol)</span>
+            </h5>
+            <a href="#">PDF</a>
+          </div>
+            <div class="product">
+              <div class="product__left">
+                <img src="img/levoglucosan-bottle.png" alt="">
+                <div class="product__options">
+
+                </div>
+              </div>
+              <div class="product__info">
+                  <p><span>C6H10O5</span></br>CAS number: 498-07-7</br> Molar mass: 162.141 g/mol</br> Purity: 99.8%</p>
+                  <p>Purity:99.8%</p>
+                  <p>Levoglucosan is a well-known tracer of forest fires and coal combustion.</p>
+              </div>
+              <div class="product__apps">
+                  <p>Biopolymers</p>
+                  <p>Biodegradable plastics</p>
+                  <p>Chiral catalysts incorporating levoglucosan-based ligands</p>
+                  <p>Intermediate for valuable compounds, such as glucosides, levoglucosenone, 5-hydroxymethylfurfural, levulinic acid, furfural and others.</p>
+                  <p>Medical application</p>
+                  <div class="more__product__info__btn" data-fancybox data-src="#modal-2" href="javascript:;">read more</div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="products__slider_item">
+          <div class="product__head">
+            <h5>Melanin</br>
+              <span>(more info soon)</span>
+            </h5>
+            <a href="#">PDF</a>
+          </div>
+            <div class="product">
+              <div class="product__left">
+                <img src="img/melanin-bottle.png" alt="">
+              </div>
+              <div class="product__info">
+                  <p><span>C18H10N2O4</span></br> CAS number: 8049-97-6</br> Molar mass: </p>
+                  <p>Purity: >98%</p>
+                  <p>Completely water-soluble bio-derived melanin of high purity.</p>
+              </div>
+              <div class="product__apps">
+                  <p>Skin where it provides skin color</p>
+                  <p>Hair</p>
+                  <p>Pupils or irises of the eyes</p>
+                  <p>Stria vascularis of the inner ear</p>
+                  <p>Areas of the brain, the substantia nigra and locus coeruleus</p>
+                  <p>The medulla and zona reticularis of the adrenal gland</p>
+                  <p>Synthesis</p>
+                  <p>Pharmacology</p>
+                  <div class="more__product__info__btn" data-fancybox data-src="#modal-3" href="javascript:;">read more</div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="products__slider_item">
+          <div class="product__head">
+            <h5>More products</br>
+              <span>(more info soon)</span>
+            </h5>
+            <a href="#">PDF</a>
+          </div>
+            <div class="product">
+              <div class="product__left">
+                <img src="img/tranform-bg3.png" alt="">
+              </div>
+              <div class="more__provided__products">
+
+
+              </div>
+              <div class="product__apps">
+                  <p>More products soon</p>
+
+
+              </div>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <h2 class=" title">SERVICES</h2>
+  <section id="services" class="services">
+    <div class="services__bg transform__bg">
+      <img src="img/tranform-bg1.png" alt="figure">
+    </div>
+    <div class="container">
+          <div class="services__wrapper">
+
+            <div class="accordion">
+                  <h2>Atomic Adsorption Analysis of water solutions</h2>
+                  <div class="service__content__item">
+                    <p></p>
+                    <div class="service__email__btn">email</div>
+                  </div>
+                  <h2>Nuclear Magnetic Resonance</h2>
+                  <div class="service__content__item">
+                    <p> </p>
+                    <div class="service__email__btn">email</div>
+                  </div>
+                  <h2>Electron Paramagnetic Resonance</h2>
+                  <div class="service__content__item">
+                    <p></p>
+                    <div class="service__email__btn">email</div>
+                  </div>
+                  <h2>Detailed analysis of vegetable oils</h2>
+                  <div class="service__content__item">
+                    <p></p>
+                    <div class="service__email__btn">email</div>
+                  </div>
+                  <h2>Biological activity tests</h2>
+                  <div class="service__content__item">
+                    <p></p>
+                    <div class="service__email__btn">email</div>
+                  </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <h2 class=" title">WHY US?</h2>
+  <section class="why-us" id="why-us">
+    <div class="container">
+
+      <div class="why-us__dots title__dots">
+            <div class="why-us__dot title__dot">
+              <h3>CERTIFICATION</h3>
+            </div>
+          <!--  <div class="why-us__dot title__dot">
+              <h3>REVIEWS</h3>
+            </div>
+          -->
+            <div class="why-us__dot title__dot team__title__dot">
+              <h3>TEAM</h3>
+            </div>
+      </div>
+
+      <div class="why-us__slider">
+        <div class="why-us__slider_item">
+              <div class="certification">
+                    <div class="certification___link">
+                        <span> SDS_LEVOGLUCOSAN.PDF</span>
+                    </div>
+                    <div class="certification___link">
+                        <span>QSD_LEVOGLUCOSAN.PDF</span>
+                    </div>
+                    <div class="certification___link">
+                        <span>SDS_LEVOGLUCOSENON.PDF</span>
+                    </div>
+                    <div class="certification___link">
+                        <span>QDS_LEVOGLUCOSENON.PDF</span>
+                    </div>
+                    <div class="certification___link">
+                        <span>SDS_MELANIN.PDF</span>
+                    </div>
+                    <div class="certification___link">
+                        <span>QDS_MELANIN.PDF</span>
+                    </div>
+                    <div class="certification___link">
+                        <span>LABDOCS.PDF</span>
+                    </div>
+              </div>
+        </div>
+    <!--    <div class="why-us__slider_item">
+              <div class="reviews__content">
+                <div class="review">
+                    <div class="review__info">
+                        <span>John Smith</span>
+                        <span>PhD biology KPI</span>
+                    </div>
+                    <div class="review__text">
+                      GCL offers one of the purest levoglucosenone at the market because of our innovative purification technology, which let us deliver an excellent product at competitive prices.
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="review__info">
+                        <span>John Smith</span>
+                        <span>PhD biology KPI</span>
+                    </div>
+                    <div class="review__text">
+                      GCL offers one levoglucosenone at the market of innovative purification deliver an excellent product  prices.
+                    </div>
+                </div>
+              </div>
+        </div>
+      -->
+        <div class="why-us__slider_item">
+              <div class="team">
+
+                <div class="team__item">
+                  <div class="team__item__head team__item__head_0" data-card="0">
+                        <span class="team__item__head__name">TEAM OVERVIEW</span>
+                        <span class="team__item__head__occupation">Gogol Chemical Laboratory</span>
+                  </div>
+                  <div class="team__item__content team__item__content_0 active">
+
+                  </div>
+                </div>
+
+                <div class="team__item">
+                  <div class="team__item__head team__item__head_1" data-card="1">
+                        <span class="team__item__head__name">Dr. ALISA DOROSHENKO</span>
+                        <span class="team__item__head__occupation">chief executive officer</span>
+                  </div>
+                  <div class="team__item__content team__item__content_1">
+                      <div class="team__item__content__img">
+
+                      </div>
+                      <div class="team__item__content__text">
+                              Dr Alisa Doshenko earned her PhD at the University of York following
+                              a double degree in Business Management and Marketing. She was involved
+                              in R&D and consultancy for various companies. This experience helped her to develop a vision on how to approach efficient production of valuable chemicals from various wastes. Alisa is responsible for the daily functionalisation of the company, communication with suppliers, partners and clients.
+                      </div>
+                  </div>
+                </div>
+
+                <div class="team__item">
+                  <div class="team__item__head team__item__head_2" data-card="2">
+                        <span class="team__item__head__name">Dr. BOGDAN KLIMIUK</span>
+                        <span class="team__item__head__occupation">deputy chief executive officer</span>
+                  </div>
+                  <div class="team__item__content team__item__content_2">
+                      <div class="team__item__content__img">
+
+                      </div>
+                      <div class="team__item__content__text">
+                          Dr Bogdan Klimiuk earned his degree at the Bogomolets National Medical University.
+                          His primary aim is being involved in the well-developing society, taking care of
+                          the next generations. Bogdan is responsible for the daily functionalisation of the
+                          company, establishment of new partnerships and development of sustainable development of the GCL.
+                      </div>
+                  </div>
+                </div>
+
+                <div class="team__item">
+                  <div class="team__item__head team__item__head_3" data-card="3">
+                        <span class="team__item__head__name">SERHIY DOROSHENKO</span>
+                        <span class="team__item__head__occupation">project manager</span>
+                  </div>
+                  <div class="team__item__content team__item__content_3">
+                      <div class="team__item__content__img">
+
+                      </div>
+                      <div class="team__item__content__text">
+                        Serhii has been involved in managing business since the early 1990th.
+                        He possesses a double degree in Finances and Management. Serhii is
+                        responsible for the day-to-day management of the GCL and communication with suppliers.
+                      </div>
+                  </div>
+                </div>
+
+                <div class="team__item">
+                  <div class="team__item__head team__item__head_4" data-card="4">
+                        <span class="team__item__head__name">Dr. IHOR PYLYPENKO</span>
+                        <span class="team__item__head__occupation">lab manager</span>
+                  </div>
+                  <div class="team__item__content team__item__content_4">
+                      <div class="team__item__content__img">
+
+                      </div>
+                      <div class="team__item__content__text">
+                        Dr Ihor Pylypenko achieved his PhD at the NTUU “KPI” (analogue of Ox-Bridge). During the PhD he was developing environmentally friendly catalysts and adsorbents. These materials can be used for an
+                        efficient transformation of food wastes towards a narrow range of valuable chemicals, fast and efficient utilisation of plastics wastes and water treatment. The further functionalisation of these
+                        materials can be achieved via further synthetic and/or electrochemical treatment, giving a materials with superior properties, including antibacterial effect. Ihor is responsible for the chemical
+                        and separation team to deliver high-purity products and services to our clients.
+
+                      </div>
+                  </div>
+                </div>
+
+                <div class="team__item">
+                  <div class="team__item__head team__item__head_5" data-card="5">
+                        <span class="team__item__head__name">Dr. VITALIY BUDARIN</span>
+                        <span class="team__item__head__occupation">Product manager</span>
+                  </div>
+                  <div class="team__item__content team__item__content_5">
+                      <div class="team__item__content__img">
+
+                      </div>
+                      <div class="team__item__content__text">
+                          Dr Vitaliy Budarin has over 20 years experience in chemistry and science.
+                          This is a worldwide known expert in alternative processes of biomass transformation.
+                          Vitaliy has published a lot of articles highlighting microwave chemistry,
+                          materials chemistry and biomass chemistry. He is responsible for pushing
+                          forward the development of innovative decisions on the production of
+                          valuable chemicals from renewable resources.
+                      </div>
+                  </div>
+                </div>
+
+              </div>
+        </div>
+    </div>
+
+
+    </div>
+
+  </section>
+
+  <h2 class=" title">PARTNERS</h2>
+  <section class="partners" id="partners">
+      <div class="map__wrapper">
+        <div class="container">
+          <div class="partners__content">
+            <div class="partners__content__title">
+                  Partnership title
+            </div>
+            <div class="partners__content__descr">
+                  However, the correct structure of the unknown compound was finally given by Helpern, Riffer and Broido.(4) They reported the phosphate salts catalysed pyrolysis of cellulose, collected volatiles and separated them by preparative gas chromatography.
+            </div>
+          </div>
+        </div>
+
+    <div id="map">
+
+    </div>
+
+</div>
+
+
+  </section>
+
+  <h2 class=" title">CONTACTS</h2>
+  <section id="contacts" class="contacts">
+      <div class="contacts__bg transform__bg">
+          <img src="img/tranform-bg2.png" alt="figure">
+      </div>
+      <div class="container">
+          <div class="contacts__wrapper">
+              <div class="contacts__main">
+                <p>
+                  <span>
+                        Gogol Chemical Lab <br>
+                        Horiva St. 7 <br>
+                        Kyiv, Ukraine  <br>
+                  </span>
+                        02217 <br>
+                        gcl@gmail.com <br>
+                        +380777077703 <br>
+                </p>
+              </div>
+              <div class="contacts__cloud">
+                <div class="contacts__cloud__item">
+                  <span>Serhii Loremipsum</span>
+                  <a href="#">serhiigcl@gmail.com</a>
+                </div>
+                <div class="contacts__cloud__item">
+                  <span>Alice Loremipsum</span>
+                  <a href="#">alicegcl@gmail.com</a>
+                </div>
+                <div class="contacts__cloud__item">
+                  <span>Ihor Loremipsum</span>
+                  <a href="#">alicegcl@gmail.com</a>
+                </div>
+                <div class="contacts__cloud__item">
+                  <span>Bohdan Loremipsum</span>
+                  <a href="#">bohdangcl@gmail.com</a>
+                </div>
+
+              </div>
+          </div>
+      </div>
+
+  </section>
+
+        <div class="mode">
+            <div class="container">
+              <svg class="mode__btn" width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="mode__btn_path_black" fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30V0Z" fill="black"/>
+              <mask id="mode__btn_mask_white" fill="white">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M17 0C25.2843 0 32 6.71573 32 15C32 23.2843 25.2843 30 17 30V0Z"/>
+              </mask>
+              <path id="mode__btn_path_white" fill-rule="evenodd" clip-rule="evenodd" d="M17 0C25.2843 0 32 6.71573 32 15C32 23.2843 25.2843 30 17 30V0Z" fill="white"/>
+              <path id="mode__btn_path_black" d="M17 0H16V-1H17V0ZM17 30V31H16V30H17ZM31 15C31 7.26801 24.732 1 17 1V-1C25.8366 -1 33 6.16344 33 15H31ZM17 29C24.732 29 31 22.732 31 15H33C33 23.8366 25.8366 31 17 31V29ZM16 30V0H18V30H16Z" fill="black" mask="url(#path-2-inside-1)"/>
+              </svg>
+          </div>
+      </div>
+
+      <div class="loading__animation">
+        <svg class="load__anim" >
+  <defs>
+    <linearGradient id="bg" x1="50%" y1="0%" x2="20%" y2="100%" gradientTransform="rotate(-45)" >
+      <stop offset="20%" stop-color="#8A88F6">
+        <animate attributeName="stop-color" values="#8A88F6;#01A22A;#8A88F6" dur="1s" repeatCount="indefinite"></animate>
+      </stop>
+      <stop offset="100%" stop-color="#01A22A">
+        <animate attributeName="stop-color" values="#01A22A;#8A88F6;#01A22A" dur="1s" repeatCount="indefinite"></animate>
+      </stop>
+    </linearGradient>
+  </defs>
+  <!--<rect x="0" y="0" width="100%" fill="url(#bg)" height="100%"></rect> -->
+  <!--<text class="text" fill="url(#bg)" x="50%" y="50%">gcl</text>  -->
+  <g id="Group_71" fill="none">
+  <path id="Vector" d="M555.647 391.042L591.232 369.947L646.207 401.59L666.769 463.809H730.586L750.616 402.122L716.736 376.872" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_2" d="M678.594 378.684L646.206 401.59" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_3" d="M585.904 328.291V373.144" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_4" d="M598.263 328.291V373.144" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_5" d="M660.376 407.663L675.718 451.238" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_6" d="M737.085 407.663L722.809 451.238" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_7" d="M750.616 402.122L797.707 378.684L832.013 399.565" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_8" d="M1459 565.341L1423.52 586.542L1368.55 554.793L1347.99 492.681H1284.06L1264.14 554.261L1298.02 579.617" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_9" d="M1336.05 577.808L1368.55 554.795" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_10" d="M1428.85 628.201V583.348" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_11" d="M1416.49 628.201V583.348" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_12" d="M1354.38 548.722L1338.93 505.147" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_13" d="M1277.56 548.722L1291.84 505.147" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_14" d="M1264.14 554.262L1217.05 577.807L1182.74 556.819" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_15" d="M442.502 70.677L478.086 49.582L533.061 81.2244L553.623 143.444H617.547L637.47 81.7571L603.591 56.4006" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_16" d="M565.449 58.3184L533.061 81.2244" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_17" d="M472.76 7.81836V52.6716" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_18" d="M485.117 7.81836V52.6716" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_19" d="M547.23 87.2969L562.679 130.872" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_20" d="M624.046 87.2969L609.77 130.872" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_21" d="M637.47 81.7571L684.56 58.3184L718.866 79.2001" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_22" d="M484.052 241.779L526.242 217.595L584.732 251.368L643.862 217.595L701.074 251.368L743.903 228.462" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_23" d="M695.639 300.483V248.172" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_24" d="M705.761 300.483V248.918" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_25" d="M520.702 220.791V170.078" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_26" d="M531.144 170.078L531.783 220.791" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_27" d="M961.351 209.925L1003.54 185.847L1062.03 219.62L1121.05 185.847L1178.37 219.62L1221.2 196.714" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_28" d="M1172.94 268.735V216.424" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_29" d="M1183.06 268.734V217.062" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_30" d="M998.001 189.042V138.223" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_31" d="M1008.44 138.223L1009.08 189.042" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_32" d="M120.646 821.465L162.835 797.387L221.326 831.16L280.456 797.387L337.774 831.16L380.497 808.147" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_33" d="M332.338 880.275V827.857" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_34" d="M342.354 880.273V828.602" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_35" d="M157.294 800.476V749.763" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_36" d="M167.843 749.763L168.375 800.476" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_37" d="M1034.01 116.063L1076.2 91.9854L1134.69 125.652L1193.72 91.9854L1251.03 125.652L1293.86 102.746" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_38" d="M1245.6 174.873V122.455" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_39" d="M1255.72 174.872V123.2" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_40" d="M1070.66 95.0744V44.3613" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_41" d="M1081.1 44.3613L1081.74 95.0744" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_42" d="M501.204 442.821L459.547 467.752L400.418 435.044L341.927 469.989L284.076 437.281L241.673 460.933" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_43" d="M288.551 388.059L289.51 440.37" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_44" d="M278.431 388.272L279.39 439.838" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_45" d="M464.981 464.449L465.94 515.269" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_46" d="M455.499 515.481L453.901 464.661" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_47" d="M1126.59 780.233L1084.83 805.164L1025.7 772.456L967.21 807.295L909.359 774.693L866.956 798.345" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_48" d="M913.835 725.472L914.794 777.783" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_49" d="M903.713 725.579L904.778 777.251" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_50" d="M1090.27 801.86L1091.22 852.573" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_51" d="M1080.78 852.787L1079.29 802.074" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_52" d="M419.49 243.591V282.904L371.44 310.072V366.645L419.49 394.558L468.072 366.751L505.148 387.846" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_53" d="M468.816 366.432V310.711L419.488 282.904" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_54" d="M420.555 384.97L460.401 361.744" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_55" d="M420.555 292.28L460.401 315.186" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_56" d="M379.749 361.745V315.933" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_57" d="M515.055 649.508L554.368 649.188L581.855 697.025L638.428 696.598L666.022 648.336L637.789 599.967L658.564 562.784" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_58" d="M637.468 599.222L581.748 599.648L554.367 649.189" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_59" d="M656.432 647.378L632.78 607.745" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_60" d="M563.744 648.123L586.33 608.064" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_61" d="M633.421 688.396L587.715 688.715" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_62" d="M1336.37 865.571L1305.26 841.6L1313.15 786.945L1268.4 752.426L1216.83 773.414L1209.27 828.815L1169.85 845.329" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_63" d="M1209.06 829.668L1253.16 863.654L1305.26 841.601" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_64" d="M1223.87 780.021L1217.9 825.832" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_65" d="M1297.17 836.699L1254.76 854.172" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_66" d="M1267.23 762.015L1303.45 789.928" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_67" d="M1423.42 271.292L1392.31 247.32L1400.19 192.665L1355.34 158.146L1303.88 179.135L1296.21 234.536L1256.89 251.049" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_68" d="M1295.99 235.28L1340.21 269.373L1392.31 247.319" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_69" d="M1310.91 185.739L1304.94 231.551" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_70" d="M1384.21 242.313L1341.81 259.893" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_71" d="M1354.16 167.735L1390.39 195.649" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_72" d="M410.539 799.091L449.852 799.304L476.594 847.567L533.167 847.993L561.506 800.05L533.912 751.361L555.327 714.392" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_73" d="M533.701 750.616L477.874 750.189L449.854 799.304" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_74" d="M551.811 798.985L528.905 759.032" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_75" d="M459.229 798.452L482.348 758.713" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_76" d="M528.373 839.683L482.561 839.363" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_77" d="M933.652 220.897L894.338 221.43L866.638 173.7L810.065 174.446L782.685 222.922L811.237 271.078L790.675 308.473" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_78" d="M811.557 271.824L867.277 271.078L894.338 221.431" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_79" d="M792.379 223.775L816.137 263.302" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_80" d="M884.963 222.496L862.696 262.662" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_81" d="M815.073 182.65L860.779 182.011" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_82" d="M346.297 272.144L307.09 272.677L279.283 224.947L222.711 225.693L195.437 274.169L223.883 322.325L203.32 359.72" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_83" d="M224.199 323.07L279.92 322.324L307.087 272.677" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_84" d="M205.024 275.021L228.889 314.547" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_85" d="M297.713 273.742L275.34 313.908" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_86" d="M227.716 233.896L273.528 233.257" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_87" d="M193.945 679.978L154.631 680.511L126.931 632.781L70.3583 633.527L42.9775 682.003L71.5302 730.159L50.968 767.554" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_88" d="M71.8496 730.906L127.57 730.16L154.631 680.513" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_89" d="M52.6719 682.855L76.4303 722.382" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_90" d="M145.254 681.576L122.881 721.742" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_91" d="M75.3643 641.731L121.07 641.092" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_92" d="M1063.2 291.002L1096.44 312.097L1093.46 367.284L1141.19 397.648L1190.63 372.079L1193.18 316.145L1230.9 296.222" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_93" d="M1193.29 315.399L1146.3 285.461L1096.44 312.096" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_94" d="M1183.06 366.113L1184.77 319.981" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_95" d="M1104.86 316.358L1145.56 295.05" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_96" d="M1141.51 387.952L1102.94 363.448" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_97" d="M488.313 506.319L546.697 539.453L605.507 506.319L648.23 530.824" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_98" d="M599.968 458.802L600.074 509.408" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_99" d="M610.622 458.802L610.729 509.408" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_100" d="M545.207 547.017L540.093 579.725C540.078 579.935 540.105 580.145 540.173 580.345C540.24 580.544 540.346 580.728 540.484 580.887C540.623 581.045 540.791 581.175 540.98 581.268C541.169 581.361 541.374 581.416 541.584 581.429H551.705C551.921 581.431 552.134 581.387 552.33 581.299C552.527 581.211 552.702 581.082 552.843 580.92C552.985 580.758 553.09 580.567 553.151 580.361C553.212 580.155 553.228 579.938 553.197 579.725L548.19 547.017C548.19 546.621 548.033 546.242 547.753 545.962C547.473 545.683 547.094 545.525 546.698 545.525C546.303 545.525 545.923 545.683 545.643 545.962C545.364 546.242 545.207 546.621 545.207 547.017V547.017Z" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_101" d="M1 342.461L59.4904 375.488L118.3 342.461L161.023 366.965" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_102" d="M112.654 294.837L112.867 345.443" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_103" d="M123.415 294.837L123.522 345.443" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_104" d="M57.8921 383.159L52.8847 415.76C52.855 415.978 52.8707 416.2 52.9309 416.412C52.9911 416.624 53.0945 416.822 53.2346 416.992C53.3747 417.162 53.5484 417.301 53.7449 417.401C53.9414 417.5 54.1563 417.558 54.3763 417.571H64.4975C64.7175 417.558 64.9325 417.5 65.129 417.401C65.3255 417.301 65.4992 417.162 65.6392 416.992C65.7793 416.822 65.8827 416.624 65.9429 416.412C66.0031 416.2 66.0189 415.978 65.9891 415.76L60.9817 383.159C60.8915 382.818 60.691 382.516 60.4116 382.301C60.1322 382.086 59.7895 381.97 59.4369 381.97C59.0843 381.97 58.7416 382.086 58.4622 382.301C58.1828 382.516 57.9824 382.818 57.8921 383.159V383.159Z" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_105" d="M859.499 305.384L917.883 338.411L976.693 305.384L1019.42 329.888" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_106" d="M971.152 257.761L971.259 308.367" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_107" d="M981.809 257.761L981.915 308.367" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_108" d="M916.391 346.082L911.277 378.684C911.248 378.902 911.263 379.124 911.323 379.336C911.384 379.548 911.487 379.745 911.627 379.915C911.767 380.085 911.941 380.225 912.137 380.324C912.334 380.424 912.549 380.482 912.769 380.495H922.89C923.116 380.5 923.34 380.454 923.546 380.36C923.751 380.266 923.933 380.126 924.076 379.952C924.22 379.777 924.322 379.573 924.375 379.353C924.428 379.133 924.43 378.904 924.382 378.684L919.374 346.082C919.374 345.687 919.217 345.307 918.937 345.028C918.658 344.748 918.278 344.591 917.883 344.591C917.487 344.591 917.108 344.748 916.828 345.028C916.548 345.307 916.391 345.687 916.391 346.082Z" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_109" d="M1235.16 628.201L1277.56 680.193L1344.47 670.604L1375.36 708.852" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_110" d="M1356.4 624.152L1338.29 671.456" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_111" d="M1366.42 627.987L1348.2 675.291" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_112" d="M1273.51 686.691L1257 715.35C1256.89 715.536 1256.83 715.743 1256.81 715.956C1256.79 716.169 1256.81 716.384 1256.89 716.587C1256.96 716.789 1257.07 716.973 1257.22 717.128C1257.37 717.282 1257.55 717.403 1257.75 717.481L1267.12 721.104C1267.32 721.209 1267.54 721.264 1267.77 721.265C1267.99 721.265 1268.22 721.21 1268.41 721.105C1268.61 721 1268.78 720.848 1268.91 720.662C1269.04 720.476 1269.12 720.262 1269.15 720.038L1276.28 687.757C1276.38 687.4 1276.34 687.02 1276.18 686.691C1276.01 686.361 1275.72 686.105 1275.38 685.972C1275.04 685.84 1274.65 685.84 1274.31 685.973C1273.96 686.106 1273.68 686.362 1273.51 686.691Z" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_113" d="M376.34 96.353L414.908 122.242L396.477 189.043H330.102L308.155 122.668L245.19 94.7549L210.884 113.186" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_114" d="M343.845 96.46L308.154 122.669" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_115" d="M251.688 52.7783L251.795 96.8858" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_116" d="M239.116 52.7783L239.223 98.3774" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_117" d="M332.766 167.521L320.194 127.568" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_118" d="M392.32 167.628L402.548 126.823" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_119" d="M321.899 622.021L283.225 647.697L301.123 714.498L367.498 715.031L389.871 648.763L453.156 621.275L487.249 639.92" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_120" d="M354.394 622.341L389.871 648.763" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_121" d="M446.87 579.298L446.443 623.405" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_122" d="M459.442 579.405L459.122 625.004" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_123" d="M364.94 693.51L377.832 653.664" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_124" d="M305.491 693.083L295.477 652.278" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_125" d="M1390.18 432.379L1428.64 406.277L1409.99 339.689L1343.62 339.796L1321.88 406.383L1259.02 434.51L1224.72 416.185" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_126" d="M1357.68 432.38L1321.88 406.384" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_127" d="M1265.74 476.488L1265.63 432.381" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_128" d="M1253.16 476.488L1252.95 430.889" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_129" d="M1346.28 361.425L1333.92 401.377" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_130" d="M1405.84 361.104L1416.28 401.803" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_131" d="M802.287 43.6168L763.507 69.2929L781.512 136.2L847.78 136.733L870.26 70.4648L933.438 42.9775L967.531 61.622" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_132" d="M834.782 44.043L870.26 70.4648" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_133" d="M927.152 1L926.832 45.1075" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_134" d="M939.832 1.10645L939.405 46.7055" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_135" d="M845.329 115.105L858.22 75.2588" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_136" d="M785.773 114.784L775.865 73.9795" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_137" d="M164.646 102.533L157.827 56.5078L89.6416 44.4688L61.0889 104.344L111.589 152.713L109.778 221.645L78.3483 244.657" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_138" d="M150.582 131.725L111.588 152.713" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_139" d="M150.369 233.684L110.63 214.72" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_140" d="M144.936 245.084L103.812 225.48" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_141" d="M81.6504 111.269L112.334 139.715" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_142" d="M107.219 57.4658L148.45 65.776" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_143" d="M895.404 581.11L933.971 607.106L915.54 673.8L849.272 673.906L827.218 607.425L764.253 579.512L730.054 597.943" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_144" d="M863.015 581.322L827.218 607.425" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_145" d="M770.857 537.643V581.75" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_146" d="M758.18 537.643L758.286 583.242" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_147" d="M851.829 652.278L839.363 612.432" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_148" d="M911.384 652.386L921.612 611.688" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_149" d="M1140.77 639.494L1179.01 665.916L1159.73 732.397L1093.46 731.651L1072.26 664.957L1009.61 636.191L975.096 654.197" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_150" d="M1108.27 639.174L1072.26 664.957" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_151" d="M1016.75 594.428L1016.22 638.429" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_152" d="M1004.07 594.215L1003.54 639.814" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_153" d="M1096.34 710.13L1084.3 669.964" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_154" d="M1155.79 710.876L1166.55 670.284" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_155" d="M755.091 752.001L691.912 751.148L634.061 809L633.422 852.681" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_156" d="M691.273 708.958L691.913 751.148" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_157" d="M634.06 808.999L685.732 868.129L690.632 860.99L634.06 808.999Z" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_158" d="M690.633 860.99L690.952 822.849" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_159" d="M685.84 868.981L770.219 870.046L828.284 812.088L766.81 862.268L690.634 860.99" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_160" d="M785.454 765.531L829.029 811.024" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_161" d="M828.709 810.064V855.238" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_162" d="M766.81 862.269L770.219 870.046L770.006 912.129" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_163" d="M1034.01 417.891H970.727L913.621 476.488V520.169" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_164" d="M969.661 375.595L970.726 417.891" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_165" d="M913.621 476.487L966.039 534.978L970.94 527.733L913.621 476.487Z" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_166" d="M970.941 527.734L970.728 489.593" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_167" d="M966.252 535.724H1050.63L1107.95 477.127L1047.01 527.947L970.94 527.733" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_168" d="M1064.48 430.995L1108.7 475.955" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_169" d="M1108.27 474.996L1108.91 520.169" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_170" d="M1047.01 527.946L1050.63 535.724L1050.95 577.807" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_171" d="M212.908 468.923H149.729L92.624 527.52V571.201" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_172" d="M148.558 426.734L149.73 468.924" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_173" d="M92.624 527.521L145.042 586.011L149.836 578.766L92.624 527.521Z" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_174" d="M149.837 578.766L149.73 540.625" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_175" d="M145.255 586.756H229.528L286.953 528.159L226.012 578.979L149.836 578.766" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_176" d="M243.485 482.028L287.7 526.988" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_177" d="M287.273 526.028L287.806 571.201" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="Vector_178" d="M226.013 578.979L229.529 586.756L229.955 628.839" stroke="url(#bg)" stroke-width="3" stroke-miterlimit="10"/>
+  <path id="G" d="M526.153 135.934C528.175 135.934 529.923 136.324 531.397 137.105C533.536 138.229 534.845 140.196 535.323 143.009H532.438C532.086 141.437 531.358 140.294 530.255 139.581C529.151 138.858 527.76 138.497 526.08 138.497C524.088 138.497 522.408 139.244 521.041 140.738C519.684 142.232 519.005 144.459 519.005 147.418C519.005 149.977 519.566 152.062 520.689 153.673C521.812 155.274 523.644 156.075 526.183 156.075C528.126 156.075 529.732 155.514 531.002 154.391C532.281 153.258 532.936 151.432 532.965 148.912H526.227V146.495H535.675V158.009H533.8L533.097 155.24C532.11 156.324 531.236 157.076 530.475 157.496C529.195 158.219 527.569 158.58 525.597 158.58C523.048 158.58 520.855 157.755 519.02 156.104C517.018 154.034 516.017 151.192 516.017 147.579C516.017 143.976 516.993 141.109 518.946 138.98C520.802 136.949 523.204 135.934 526.153 135.934Z" fill="url(#bg)"/>
+  <path id="G_2" d="M283.547 352.587C285.568 352.587 287.316 352.978 288.791 353.759C290.93 354.882 292.238 356.85 292.717 359.662H289.831C289.479 358.09 288.752 356.947 287.648 356.234C286.545 355.512 285.153 355.15 283.474 355.15C281.481 355.15 279.802 355.897 278.435 357.392C277.077 358.886 276.398 361.112 276.398 364.071C276.398 366.63 276.96 368.715 278.083 370.326C279.206 371.928 281.037 372.729 283.576 372.729C285.52 372.729 287.126 372.167 288.396 371.044C289.675 369.911 290.329 368.085 290.358 365.565H283.62V363.148H293.068V374.662H291.193L290.49 371.894C289.504 372.978 288.63 373.729 287.868 374.149C286.589 374.872 284.963 375.233 282.99 375.233C280.441 375.233 278.249 374.408 276.413 372.758C274.411 370.688 273.41 367.846 273.41 364.232C273.41 360.629 274.387 357.763 276.34 355.634C278.195 353.603 280.598 352.587 283.547 352.587Z" fill="url(#bg)"/>
+  <path id="O" d="M593.843 295.573C597.642 295.573 600.454 296.794 602.28 299.235C603.706 301.14 604.419 303.576 604.419 306.545C604.419 309.758 603.604 312.429 601.973 314.558C600.059 317.058 597.329 318.308 593.784 318.308C590.474 318.308 587.871 317.214 585.977 315.026C584.287 312.917 583.442 310.251 583.442 307.028C583.442 304.118 584.165 301.628 585.61 299.558C587.466 296.901 590.21 295.573 593.843 295.573ZM594.136 315.7C596.704 315.7 598.56 314.782 599.702 312.946C600.854 311.101 601.431 308.981 601.431 306.589C601.431 304.06 600.767 302.023 599.438 300.48C598.12 298.938 596.313 298.166 594.019 298.166C591.792 298.166 589.976 298.933 588.569 300.466C587.163 301.989 586.46 304.24 586.46 307.219C586.46 309.602 587.061 311.613 588.262 313.254C589.473 314.885 591.431 315.7 594.136 315.7Z" fill="url(#bg)"/>
+  <path id="O_2" d="M365.905 261.157C369.704 261.157 372.517 262.378 374.343 264.819C375.769 266.724 376.481 269.16 376.481 272.129C376.481 275.342 375.666 278.013 374.035 280.142C372.121 282.642 369.392 283.892 365.847 283.892C362.536 283.892 359.934 282.798 358.039 280.61C356.35 278.501 355.505 275.835 355.505 272.612C355.505 269.702 356.228 267.212 357.673 265.142C359.528 262.485 362.272 261.157 365.905 261.157ZM366.198 281.284C368.767 281.284 370.622 280.366 371.765 278.53C372.917 276.685 373.493 274.565 373.493 272.173C373.493 269.644 372.829 267.607 371.501 266.064C370.183 264.521 368.376 263.75 366.081 263.75C363.854 263.75 362.038 264.517 360.632 266.05C359.226 267.573 358.522 269.824 358.522 272.803C358.522 275.186 359.123 277.197 360.324 278.838C361.535 280.469 363.493 281.284 366.198 281.284Z" fill="url(#bg)"/>
+  <path id="L" d="M692.318 351.451H695.233V370.406H706.132V372.97H692.318V351.451Z" fill="url(#bg)"/>
+  <path id="L_2" d="M687.805 679.252H690.72V698.207H701.618V700.771H687.805V679.252Z" fill="url(#bg)"/>
+  <path id="L_3" d="M1163.49 532.049L1166.4 532.121L1165.94 551.07L1176.83 551.336L1176.77 553.899L1162.96 553.561L1163.49 532.049Z" fill="url(#bg)"/>
+  <path id="CH" d="M518.02 424.211C520.744 424.211 522.858 424.929 524.362 426.364C525.866 427.8 526.701 429.431 526.867 431.257H524.025C523.703 429.87 523.059 428.771 522.092 427.961C521.135 427.15 519.787 426.745 518.049 426.745C515.93 426.745 514.216 427.492 512.907 428.986C511.608 430.471 510.959 432.751 510.959 435.827C510.959 438.347 511.545 440.393 512.717 441.965C513.898 443.527 515.656 444.309 517.99 444.309C520.139 444.309 521.774 443.483 522.897 441.833C523.493 440.964 523.938 439.821 524.23 438.405H527.072C526.818 440.671 525.979 442.57 524.553 444.104C522.844 445.949 520.539 446.872 517.639 446.872C515.139 446.872 513.039 446.115 511.34 444.602C509.104 442.6 507.985 439.509 507.985 435.329C507.985 432.155 508.825 429.553 510.505 427.521C512.321 425.314 514.826 424.211 518.02 424.211ZM530.705 424.797H533.649V433.688H544.841V424.797H547.785V446.315H544.841V436.252H533.649V446.315H530.705V424.797Z" fill="url(#bg)"/>
+  <path id="E" d="M662.693 528.61H678.382V531.247H665.535V537.78H677.415V540.271H665.535V547.565H678.602V550.129H662.693V528.61Z" fill="url(#bg)"/>
+  <path id="M" d="M754.307 504.35H758.481L764.663 522.543L770.801 504.35H774.932V525.868H772.163V513.168C772.163 512.729 772.173 512.001 772.192 510.985C772.212 509.97 772.222 508.881 772.222 507.719L766.084 525.868H763.198L757.017 507.719V508.378C757.017 508.905 757.026 509.711 757.046 510.795C757.075 511.869 757.09 512.66 757.09 513.168V525.868H754.307V504.35Z" fill="url(#bg)"/>
+  <path id="I" d="M837.977 412.949H840.921V434.468H837.977V412.949Z" fill="url(#bg)"/>
+  <path id="C" d="M918.603 396.565C921.327 396.565 923.441 397.283 924.945 398.719C926.449 400.154 927.284 401.785 927.45 403.611H924.608C924.286 402.225 923.642 401.126 922.675 400.315C921.718 399.505 920.37 399.1 918.632 399.1C916.513 399.1 914.799 399.847 913.49 401.341C912.191 402.825 911.542 405.105 911.542 408.182C911.542 410.701 912.128 412.747 913.3 414.319C914.481 415.882 916.239 416.663 918.573 416.663C920.722 416.663 922.357 415.838 923.48 414.188C924.076 413.318 924.521 412.176 924.813 410.76H927.655C927.401 413.025 926.562 414.925 925.136 416.458C923.427 418.304 921.122 419.227 918.222 419.227C915.722 419.227 913.622 418.47 911.923 416.956C909.687 414.954 908.568 411.863 908.568 407.684C908.568 404.51 909.408 401.907 911.088 399.876C912.904 397.669 915.409 396.565 918.603 396.565Z" fill="url(#bg)"/>
+  <path id="A" d="M781.223 743.858L777.956 734.352L774.484 743.858H781.223ZM776.433 731.158H779.729L787.536 752.677H784.343L782.16 746.231H773.649L771.32 752.677H768.332L776.433 731.158Z" fill="url(#bg)"/>
+  <path id="A_2" d="M1058.81 411.544L1055.54 402.037L1052.07 411.544H1058.81ZM1054.02 398.844H1057.31L1065.12 420.362H1061.93L1059.75 413.917H1051.24L1048.91 420.362H1045.92L1054.02 398.844Z" fill="url(#bg)"/>
+  <path id="B" d="M909.158 703.018C910.389 703.018 911.346 702.847 912.029 702.505C913.104 701.968 913.641 701.001 913.641 699.604C913.641 698.198 913.069 697.251 911.927 696.763C911.282 696.489 910.325 696.353 909.056 696.353H903.855V703.018H909.158ZM910.14 712.949C911.927 712.949 913.201 712.432 913.963 711.396C914.441 710.742 914.681 709.951 914.681 709.023C914.681 707.461 913.982 706.396 912.586 705.83C911.844 705.527 910.862 705.376 909.642 705.376H903.855V712.949H910.14ZM900.999 693.921H910.242C912.762 693.921 914.554 694.673 915.618 696.177C916.243 697.065 916.556 698.091 916.556 699.253C916.556 700.61 916.17 701.724 915.398 702.593C914.998 703.052 914.422 703.472 913.67 703.853C914.773 704.272 915.599 704.746 916.146 705.273C917.112 706.211 917.596 707.505 917.596 709.155C917.596 710.542 917.161 711.797 916.292 712.92C914.993 714.6 912.928 715.439 910.096 715.439H900.999V693.921Z" fill="url(#bg)"/>
+  </g>
+</svg>
+      </div>
+
+  <!--  <div class="load-wrapp">
+      <div class="load-3">
+        <p>Loading 3</p>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+ -->
+ <!--modal product infos-->
+ <div class="product__more__info" id="modal-1">
+<div class="product__more__info__content" id="product__more__info__content" >
+             <div class="info__block-img">
+                     <img class="more__product__info__formula" src="img/levoglucosenone-formula.svg" alt="">
+               </div>
+               <div class="info__block">
+                   <p>
+                       <span>C6H6O3</span></br>
+                        Molar mass – 126.111gmol-1</br>
+                        Density (20°C) – 1.304gcm3</br>
+                        Boiling point – 231°C</br>
+                        Vapor pressure (25°C) – 6.2Pa</br>
+                        Refractive index (20°C) – 1.5065</br>
+                       <span>Purity ≥ 98%</span>
+                    </p>
+               </div>
+               <div class="info__block">
+
+               </div>
+               <div class="info__block">
+               <p><span>History</span></br>
+                   In 1970 Tsuchiya and Sumi reported of a new unidentified compound
+                   replacing the levoglucosan as a significant constituent on pyrolysis
+                   of acid retardant processed cellulose.(1)  In 1973 the unidentified compound was
+                   reported to be cis-4,5-epoxy-2-pentenal (Figure 1-left) based on infrared (IR), nuclear magnetic
+                   resonance (NMR), and mass spectral analyses.(2) At the same time, Lipska and McCasland assigned
+                   1,5-anhydro-2,3-dideoxy-β-d-pent-2-enofuranose structure to the same compound (Figure 1-right).(3)
+               </p>
+               </div>
+               <div class="info__block-img">
+                     <img src="img/levoglucosenone-figure-1.svg" alt="">
+               </div>
+               <div class="info__block-img">
+                     <img src="img/levoglucosenone-figure-2.svg" alt="">
+               </div>
+               <div class="info__block">
+                     <p>However, the correct structure of the unknown compound was finally given by Helpern, Riffer and Broido.(4) They reported the phosphate salts catalysed pyrolysis of cellulose, collected volatiles and separated them by preparative gas chromatography. CHN, GC-MS, IR Spectroscopy, 13C and 1H NMR methods were used to identify the structure assigned to 1,6-anhydro-3,4-dideoxy-β-d-pyranosen-2-one (Figure 2) that is currently named as levoglucosenone.</p>
+               </div>
+               <div class="info__block">
+                     <p>Since the levoglucosenone structure was identified, the scientific world has started to look for applications for the new molecule.
+                         Applications
+                         Synthesis and medicine application
+                         The chiral nature of levoglucosenone (Figure 2) lends itself to the synthesis of natural and unnatural products. Some of the applications are reported in Table 1. More examples are available in the papers(5–9) and reviews(10–12).
+                         </p>
+               </div>
+               <div class="info__block-img">
+                     <img src="img/levoglucosenone-table.svg" alt="">
+               </div>
+               <div class="info__block-img">
+                   <img src="img/levoglucosenone-figure-3.svg" alt="">
+                    </div>
+                    <div class="info__block">
+                      <p>
+                        <span>Attractant for agriculture</span>
+                         Another exciting use of levoglucosenone in natural
+                         product synthesis is the production of (+)-γ-pelargonolactone
+                         that is used as a flavouring agent and an attractant of rice
+                         and corn weevils Sitophiltus zaemais (Figure 3).(26)
+                      </p>
+                    </div>
+
+                    <div class="info__block">
+                       <p>
+                         <span>Intermediate for the polymer industry</span>
+                               Levoglucosenone has multiple applications as a
+                               precursor of 1,6- hexanediol and 1,2,6-hexanetriol.
+                               These are key intermediates in the industrial synthesis of 1,6-hexanediamine,
+                               caprolactone and caprolactam, which are used for the manufacturing of polyester,
+                               polyamide and polyurethanes, representing multimillion operations.(27–29)
+                       </p>
+                    </div>
+               </div>
+             </div>
+
+ <div class="product__more__info" id="modal-2">
+     <div class="product__more__info__content" >
+       <div class="info__block-img">
+           <img class="more__product__info__formula" src="img/levoglucosan-formula.svg" alt="">
+       </div>
+     <div class="info__block">
+         <p>
+             <span>C6H10O5</span></br>
+             CAS number: 498-07-7</br>
+              Molar mass: 162.141 g/mol</br>
+             <span>Purity: 99.8%</span>
+          </p>
+     </div>
+     <div class="info__block">
+
+     </div>
+     <div class="info__block">
+     <p><span>Historical overview</span></br>
+         The first mention of levoglucosan is dated in 1894 by C.
+         Tarnet, who was treating picein, salicin and coniferin (Figure 1)
+         in baryte-containing water at 100°C. He named a new compound “levoglucosan”
+          because of the levorotation properties to distinguish it from the potential dextrorotation isomer
+         - the glucosan, published earlier by A. Gelis.(1) Some authors assumed levoglucosan being a result
+          β-glucose transformations.(2)
+     </p>
+     <p>Pictet and Sarasin reported the formation of levoglusan in the
+       yield of 30wt% in pyrolysis of cotton cellulose. (1) High yield
+       of LGA indicates a vital role of this molecule in pyrolysis processes.
+       Parks and co-workers made a clear statement of levoglucosan playing a crucial
+       role in cellulose pyrolysis in 1955.(3) Shafizadeh assumed levoglucosan being a
+       principle intermediate in cellulose pyrolysis.(4)</p>
+     </div>
+     <div class="info__block-img">
+           <img src="img/levoglucosan-figure-1.svg" alt="">
+     </div>
+     <div class="info__block">
+             <p><span>Biopolymers</span></br>
+               Unsubstituted levoglucosan polymerises either thermally,(5–7) or in the presence
+                of acid catalysts such as monochloroacetic acid(8) to give low molecular weight
+                oligo- or polysaccharides. The strained cyclic ether ring in one levoglucosan
+                molecule reacts with anyone of the three hydroxyls in another. The strained cyclic
+                ether in the resulting dimer then reacts with any hydroxyl in a third molecule and so on.
+               Predictably if eaten, these complex glucose-based polymers would not be fully digested by humans.
+               Like Pfizer's "Polydextrose" produced from sugar using an enzymatic process, they might find applications
+               as non-fattening fillers in low calorie foods.(9) By analogy to other natural branched chain polysaccharides,
+               including guar gum, complex polymers resulting from levoglucosan self-polymerisation might be expected to be useful water
+               thickening agents. As such they would find applications as rheological agents in enhanced oil recovery operations which
+                involve water flooding of wells. Likewise, reacting levoglucosan with starch or cellulose could also produce branched
+                 chain polymers having similar useful properties.
+               The literature describes polyethers prepared from levoglucosan
+                and alkylene oxides in the presence of basic catalysts. These derivatives
+                can be used as polyols and reacted with isocyanates to produce polyurethane foams.(10)
+               Polyethers prepared from levoglucosan and allyl bromide can be converted into polyfunctional
+                epoxy intermediates. These in turn are said to find applications as epoxy resins.
+             </p>
+     </div>
+
+     <div class="info__block-img">
+           <img src="img/levoglucosan-figure-2.svg" alt="">
+     </div>
+     <div class="info__block">
+              <p> <span> Biodegradable plastics</span></br>
+                A biodegradable plastic based on biomass-derived levoglucosan is an attractive concept. The chemical incorporation of levoglucosan into polymers is expected to give a biodegradable plastic in which extensive polymer chain degradation will occur.(9)
+                There is exist a ring-opening polymerisation of levoglucosan derivatives for the preparation of synthetic polysaccharides, including dextrans (Figure 2).
+                The protective alkyl group, R, can be removed to generate a dextran, can be chosen to allow subsequent branching of the polysaccharide or can be a long chain hydrocarbon to generate an amphiphilic polysaccharide.(9)
+                The incorporation of a monosaccharide such as levoglucosan into a polymeric structure can impart the following properties to the polymer: hydrophilicity, biodegradability and optical activity (chirality).
+              </p>
+          </div>
+          <div class="info__block-img">
+              <img src="img/levoglucosan-figure-3.svg" alt="">
+          </div>
+          <div class="info__block">
+                <p><span>Chiral catalysts incorporating levoglucosan-based ligands</span>  </br>
+                Levoglucosan is a structurally rigid chiral molecule with five asymmetric carbon centres; this has made it an ideal chiral building block in the synthesis of very complex asymmetric molecules,(11) such as antibiotics,(12) milbemycins and avermectins (13) (insecticides and antiparasitic agents), and thromboxanes.(14)
+                Examples of chiral compounds prepared industrially via asymmetric synthesis are L-DOPA, which is active against Parkinson's disease, the excellent anti-inflammatory drug, Naproxen, and the sweetener, aspartame, which is a dipeptide. There is much industrial interest in efficient methods of asymmetric synthesis, especially in manufacture of pharmaceuticals, flavours, fragrances and pesticides (including pheromones and insect hormones).(9)
+                It is possible to produce chiral phosphine and phosphinite ligands from levoglucosan. The ligands are used to prepare chiral rhodium catalysts, e.g. Figure 3, which will be tested in asymmetric hydrogenation and other asymmetric transformations.
+                </p>
+          </div>
+          <div class="info__block">
+             <p>
+              <span>Intermediate</span> for valuable compounds, such as glucosides, levoglucosenone, 5-hydroxymethylfurfural,
+              levulinic acid, furfural and others.
+               Levoglucosan has been reacted with higher alcohols containing up to
+                25 carbon atoms, in the presence of acid catalysts to give alkyl monoglucosides.
+                Glucosides containing more than one glucoside unit are also formed.(15) The glucosides are said to
+                be advantageously used as gelling agents, lubricants, wetting agents, dyeing assistants, textile softeners
+                and food emulsifiers. It therefore appears that there is little advantage to using what must always be more
+                expensive levoglucosan to prepare these glucosides.
+               If levoglucosan is a principle intermediate in cellulose and starch pyrolysis, then it can originate all cellulose
+               and starch pyro-chemicals in precise conditions.</br>
+                <span>Medical application</span>  </br>
+               The use of levoglucosan is disclosed as a pharmaceutical active agent
+               especially for the treatment of infectious or inflammatory conditions. It
+               is particularly useful for the treatment of Herpes Simplex and Herpes Zoster.(16)
+             </p>
+          </div>
+     </div>
+   </div>
+
+
+               <div class="product__more__info" id="modal-3">
+                     <div class="product__more__info__content" >
+                           <div class="info__block-img">
+                                   <img class="more__product__info__formula" src="img/melanin-formula.svg" alt="">
+                             </div>
+                             <div class="info__block">
+                                 <p>
+                                     <span>C18H10N2O4</span></br>
+                                       CAS number: 8049-97-6</br>
+                                       Molar mass: (more info soon)</br>
+                                     <span>Purity: > 98%</span>
+                                  </p>
+                             </div>
+                             <div class="info__block">
+
+                             </div>
+                             <div class="info__block">
+                             <p><span>Applications:</span></br>
+                                 Skin where it provides skin color Hair Pupils or
+                                 irises of the eyes Stria vascularis of the inner
+                                 ear Areas of the brain, the substantia nigra and
+                                 locus coeruleus The medulla and zona reticularis
+                                 of the adrenal gland Synthesis Pharmacology
+                             </div>
+                             <div class="info__block">
+                               <p><span>Historical Overview</span></br>
+                                   Melanin is a complex polymer derived from the amino acid tyrosine. Melanin is responsible for determining skin and hair colour and is present in the skin to varying degrees, depending on how much a population has been exposed to the sun historically.(1)
+                                   Melanin synthesis
+                                   Numerous steps are involved in the biosynthesis of melanin. The first step is catalysis of the chemical L-3,4-dihydroxyphenylalanine by tyrosinase. A lack of tyrosine can lead to albinism. Tyrosine is only found in a specialized cells called melanocytes, inside which tiny granules of melanin pigment are contained in vesicles called melanosomes.(1)
+                               </p>
+                             </div>
+
+                             </div>
+                           </div>
+
+
+                    <div class="back__to__product">
+                      <span>back</span>
+                    </div>
+
+                    <div class="fancy__btn">
+                          <svg width="30" height="30" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="crossgroup">
+                          <path id="crosspart1" d="M21 2L2 21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="crosspart2" d="M2 2L21 21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </svg>
+                    </div>
+
+          </div>
+
+      <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc_gcO-Mp7lHq6ryEtPD8aErzdqRb0KWY&callback=initMap">
+      </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -534,16 +534,15 @@ $('.more__product__info__btn').on('click', function(){
     $('.title').toggleClass('blurred');
     $('.fancy__btn').toggleClass('active');
   });
-  $('.fancy__btn').on('click', function(){
-      $('body').toggleClass('lock');
-      $('.title').toggleClass('blurred');
-      $.fancybox.close();
-      $(".fancy__btn").removeClass('active');
+$('.fancy__btn').on('click', function(){
+    $('body').toggleClass('lock');
+    $('.title').toggleClass('blurred');
+    $.fancybox.close();
+    $(".fancy__btn").removeClass('active');
+  });
 
-    });
 
-
-//// go to slide in enterance slider by buttons
+  //// go to slide in enterance slider by buttons
   $('.about__btn[data-slide], .header__logo[data-slide], .news__btn[data-slide], .who-we-are__btn[data-slide]').click(function(e) {
    e.preventDefault();
    var slideno = $(this).data('slide');
@@ -662,7 +661,16 @@ if ($slider.length) {
     arrows:true,
     asNavFor:'.products__dots',
     prevArrow: '<div class="corner-1"><div class="arroww-wrapper"><div class="arroww"></div><div class="arroww"></div><div class="arroww"></div></div> </div>',
-    nextArrow: '<div class="corner-2"><div class="arroww-wrapper"><div class="arroww"></div><div class="arroww"></div><div class="arroww"></div></div> </div>'
+    nextArrow: '<div class="corner-2"><div class="arroww-wrapper"><div class="arroww"></div><div class="arroww"></div><div class="arroww"></div></div> </div>',
+    responsive: [
+      {
+        breakpoint: 666,
+        settings:{
+          arrows: false
+        }
+      }
+    ]
+
 
   });
 
